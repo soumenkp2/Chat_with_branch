@@ -1,0 +1,25 @@
+pluginManagement {
+    buildscript {
+        repositories {
+            google()
+            mavenCentral()
+            maven {
+                url = uri("https://storage.googleapis.com/r8-releases/raw")
+            }
+            gradlePluginPortal()
+        }
+        dependencies {
+            classpath("com.android.tools:r8:8.2.24")
+        }
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "Chat WithBranch"
+include ':app'

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Chat WithBranch</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="conversation_title">Chat</string>
+    <string name="messages_title">Your Messages</string>
+    <string name="login_title">Login Now</string>
+</resources>
